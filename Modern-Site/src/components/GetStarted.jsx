@@ -2,6 +2,7 @@ import styles from '../style';
 import {arrowUp} from '../assets';
 
 const GetStarted = () => (
+  <div className='hover:animate-pulse'>
     <div className={`${styles.flexCenter} w-[140px] h-[140px] 
     rounded-full bg-blue-gradient p-[4px] cursor-pointer animate-in slide-in-from-bottom-80 duration-1000 mr-10`}>
       <div className={`${styles.flexCenter} flex-col bg-primary 
@@ -20,6 +21,7 @@ const GetStarted = () => (
           </p>
       </div>
     </div>
+  </div>
   )
 
 export default GetStarted
